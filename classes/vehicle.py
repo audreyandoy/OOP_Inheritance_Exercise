@@ -12,5 +12,8 @@ class Vehicle:
     def slow_down(self, rate):
         self.current_speed -= rate
 
+    def stop(self,rate):
+        pass
+
     def display_speed(self):
         print(f"Current speed is {self.current_speed} mph")
